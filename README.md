@@ -8,5 +8,5 @@ Customised rules:
 
 Notes:
 - If articles are collapsed, Instagram will complain!
-- I only use these rules to help out other people (via [reddit/r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin)
+- These rules were created to help out other people (via [reddit/r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin)
 - Instead, I use userscript to deal with various Instagram's quirks (currently not available for public use)
