@@ -1,12 +1,26 @@
-# uBO-filters
-My customised "My filters" rules that I use in uBO (mainly for helping out other people)
+# uBO-filters: Customized Filters for uBlock Origin
 
-# Instagram.txt
-Customised rules:
-1) Knock out some "Filter lists" rules (due to causing hiccups in Instagram).
-2) Added rules to hide, but not collapse sponsored and suggested articles.
+Welcome to the repository for my personalized "My filters" rules designed specifically for uBlock Origin. These filters are primarily crafted to assist other users in enhancing their browsing experience.
 
-Notes:
-- If articles are collapsed, Instagram will complain!
-- These rules were created to help out other people (via [reddit/r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin)
-- Instead, I use userscript to deal with various Instagram's quirks (currently not available for public use)
+## Instagram.txt
+
+### Customized Rules:
+
+1. **Refining Filter Lists**: Some "Filter lists" rules have been fine-tuned to eliminate potential disruptions experienced while using Instagram.
+
+2. **Tailored Visibility for Sponsored and Suggested Articles**: New rules have been introduced to intelligently conceal sponsored and suggested articles, reducing their visibility without collapsing them.
+
+### Notes:
+
+- **Maintaining Article Structure**: It's important to avoid collapsing articles as this will trigger complaints from Instagram's interface.
+
+- **Community-Centric Creation**: These rules have been curated with the intention of supporting fellow users, a contribution I engage in through [reddit/r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin).
+
+- **Intermittent Testing**: Although I don't use uBlock Origin extensively with Instagram, periodic testing of the rules remains on my agenda.
+
+- **Complementary Solutions**: My personal approach to addressing Instagram's idiosyncrasies primarily involves a tailored userscript. However, this script is currently not available for public use.
+<br>
+<br>
+<br>
+
+**Additional Note**: Many thanks to ChatGPT for assisting me in writing this README.md.
