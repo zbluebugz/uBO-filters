@@ -14,4 +14,4 @@ pinterest.at,pinterest.ca,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.c
 pinterest.*##div[data-grid-item] div > style + span:upward([data-grid-item])
 
 ! - *** untested - a rare "Ad • Paid partnership" article (uncomment if you want to try it out)
-!pinterest.*##div[data-grid-item] div > span[class][style]:has-text(/Paid partnership/i)
+!pinterest.*##div[data-grid-item] div > span[class][style]:has-text(/Paid partnership/i):upward(div[data-grid-item])
