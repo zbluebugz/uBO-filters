@@ -1,0 +1,17 @@
+! August 2022 pinterest; Not all "Promoted by" have the epik parameter. Using a different method to detect those promoted articles.
+
+! - disable this rule from the "uBlock filters – Ads"
+pinterest.*#@#+js(replace-node-text, script, /web_hide_epik_param_in_promoted_urls.*?enabled"/, web_hide_epik_param_in_promoted_urls":"disabled")
+! - disable this rule from the "uBlock filters – Ads"
+pinterest.*#@#a[href*="&epik="]:upward([data-grid-item])
+! - disable this rule from the "EasyList" (doesn't blank out the whole item)
+pinterest.at,pinterest.ca,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#@#a[href*="&epik="]
+
+! - customised rule
+! - :: testing by applying opacity
+!pinterest.*##div[data-grid-item] div > style + span:upward([data-grid-item]):style(opacity:0.25)
+! - :: live ...
+pinterest.*##div[data-grid-item] div > style + span:upward([data-grid-item])
+
+! - *** untested - a rare "Ad • Paid partnership" article (uncomment if you want to try it out)
+!pinterest.*##div[data-grid-item] div > span[class][style]:has-text(/Paid partnership/i)
